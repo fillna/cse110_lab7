@@ -1,4 +1,4 @@
 # Lab 7 - Starter
-[Github Pages](https://fillna.github.io/cse110_lab7/)
+Team 21: Jun Linwu and Gil Keidar
 
-Jun Linwu and Gil Keidar
+[Github Pages](https://fillna.github.io/cse110_lab7/)
