@@ -54,8 +54,8 @@ function initializeServiceWorker() {
       try {
     // B4. TODO - Once the service worker has been successfully registered, console
     //            log that it was successful.
-        //const registration = await navigator.serviceWorker.register("/sw.js", { scope: "/",});
-        const registration = await navigator.serviceWorker.register("/cse110_lab7/sw.js", { scope: "/cse110_lab7/",});
+        let registration = await navigator.serviceWorker.register("./sw.js", { scope: "./",});
+        //const registration = await navigator.serviceWorker.register("/cse110_lab7/sw.js", { scope: "/cse110_lab7/",});
         console.log("Registration is successful.");
       } catch (error){
     // B5. TODO - In the event that the service worker registration fails, console
